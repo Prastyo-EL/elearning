@@ -1,0 +1,134 @@
+{
+  "project_info": {
+    "project_number": "602140514018",
+    "project_id": "elearning-97c12",
+    "storage_bucket": "elearning-97c12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602140514018:android:bbb8a4869e2c03dad030bb",
+        "android_client_info": {
+          "package_name": "com.example.elearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602140514018-la3t6avm9ohmdo2ci1g0jr9i7letgav2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elearning",
+            "certificate_hash": "a1ceed07db1427f79bdb5c8eccb5369d2a9c878b"
+          }
+        },
+        {
+          "client_id": "602140514018-bg5j76hqovcvplpo7c0rl2nok7qka13g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu-eDwgH1_Nw4YdJqwu5apFQ0H0QyhyxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602140514018-bg5j76hqovcvplpo7c0rl2nok7qka13g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "602140514018-7a2hnl6mfii6bqt0bmj7mk3apbh3chkm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.elearning"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602140514018:android:17581324a959e795d030bb",
+        "android_client_info": {
+          "package_name": "id.edspert.elearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602140514018-2poauoj8cc7pg5cber930nifs9p3a17n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.edspert.elearning",
+            "certificate_hash": "a1ceed07db1427f79bdb5c8eccb5369d2a9c878b"
+          }
+        },
+        {
+          "client_id": "602140514018-bg5j76hqovcvplpo7c0rl2nok7qka13g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu-eDwgH1_Nw4YdJqwu5apFQ0H0QyhyxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602140514018-bg5j76hqovcvplpo7c0rl2nok7qka13g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "602140514018-7a2hnl6mfii6bqt0bmj7mk3apbh3chkm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.elearning"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602140514018:android:6722869e74b61f0ad030bb",
+        "android_client_info": {
+          "package_name": "id.edspert.elearning.elearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602140514018-bg5j76hqovcvplpo7c0rl2nok7qka13g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu-eDwgH1_Nw4YdJqwu5apFQ0H0QyhyxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602140514018-bg5j76hqovcvplpo7c0rl2nok7qka13g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "602140514018-7a2hnl6mfii6bqt0bmj7mk3apbh3chkm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.elearning"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

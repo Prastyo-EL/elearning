@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">602140514018-bg5j76hqovcvplpo7c0rl2nok7qka13g.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">602140514018</string>
+    <string name="google_api_key" translatable="false">AIzaSyDu-eDwgH1_Nw4YdJqwu5apFQ0H0QyhyxI</string>
+    <string name="google_app_id" translatable="false">1:602140514018:android:bbb8a4869e2c03dad030bb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDu-eDwgH1_Nw4YdJqwu5apFQ0H0QyhyxI</string>
+    <string name="google_storage_bucket" translatable="false">elearning-97c12.appspot.com</string>
+    <string name="project_id" translatable="false">elearning-97c12</string>
+</resources>
