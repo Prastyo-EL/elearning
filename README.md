@@ -4,6 +4,37 @@
 
 ![Flutter screnshoot](https://github.com/Prastyo-EL/elearning/blob/main/assets/hasil/loginpage.png)
 
+## Tampilan Register akun
+
+![Flutter screnshoot](https://github.com/Prastyo-EL/elearning/blob/main/assets/hasil/registeruserpage.png)
+
+## Tampilan Dashboard ketika berhasil login
+
+![Flutter screnshoot](https://github.com/Prastyo-EL/elearning/blob/main/assets/hasil/dashboardpage.png)
+
+## Tampilan Lihat semua pelajaran
+
+![Flutter screnshoot](https://github.com/Prastyo-EL/elearning/blob/main/assets/hasil/lihatsemuamatapelajaran.png)
+
+## Tampilan ketika memilih PBM
+
+![Flutter screnshoot](https://github.com/Prastyo-EL/elearning/blob/main/assets/hasil/memilihPBM.png)
+
+## Tampilan latihan soal PBM
+
+![Flutter screnshoot](https://github.com/Prastyo-EL/elearning/blob/main/assets/hasil/kerjakansoal.png)
+
+## Tampilan selesai mengerjakan soal
+
+![Flutter screnshoot](https://github.com/Prastyo-EL/elearning/blob/main/assets/hasil/nilaihasillatihan.png)
+
+## Tampilan halaman ketika melihat diskusi soal
+
+![Flutter screnshoot](https://github.com/Prastyo-EL/elearning/blob/main/assets/hasil/halaman%20diskusi%20siswa.png)
+
+
+
+
 A new Flutter project.
 
 ## Getting Started
