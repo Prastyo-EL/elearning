@@ -10,7 +10,7 @@
 
 ## Tampilan Dashboard ketika berhasil login
 
-![Flutter screnshoot](https://github.com/Prastyo-EL/elearning/blob/main/assets/hasil/dashboardpage.png)
+![Flutter screnshoot](https://github.com/Prastyo-EL/elearning/blob/main/assets/hasil/updatedashboard.png)
 
 ## Tampilan Lihat semua pelajaran
 
