@@ -3,6 +3,10 @@ import 'package:elearning/data/model/user_response.dart';
 import 'package:elearning/data/repository/banner_repository.dart';
 import 'package:elearning/data/repository/course_repository.dart';
 import 'package:elearning/data/services/firebase_auth_service.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
 import '../../../core/values/urls.dart';
@@ -24,8 +28,12 @@ class HomeController extends GetxController {
 
   HomeController(this.firebaseAuthService, this.courseRepository, this.bannerRepository, this.authRepository);
 
+  @override
+  void onInit() {
+    super.onInit();
+    getUser();
+  }
   List<CourseData> courseList = [];
-  List<UserData> userList=[];
   bool isGetCoursesLoading = false;
   Rx<CourseDataStatusModel> courseDataStatus = Rx(const CourseDataStatusModel(status: CourseDataStatus.initial, ));
 
@@ -51,15 +59,17 @@ class HomeController extends GetxController {
       update();
     }
   }
-  Future<void> User({required UserBody user}) async {
-    // TODO: Call AuthRepository.registerUser()
-     final userlogin =authRepository.registerUser(userBody: user);
-    //final newuser =await authRepository.registerUser(userBody: user);
-     if(userlogin!=null){
-       List<UserData> result = (await authRepository.registerUser(userBody: user)) as List<UserData>;
-       userList=result;
-     }
-    //List<UserData> result = (await authRepository.registerUser(userBody: user.fullName);
+
+  @override
+  bool getUser(){
+    //final FirebaseAuth _auth = FirebaseAuth.instance;
+
+      // UserCredential result = _auth.currentUser?.email as UserCredential;
+      // UserData user = result.user as UserData;
+      //
+      // await firebaseAuthService.isUserSignedIn();
+      // return true;
+      return FirebaseAuth.instance.currentUser == true;
 
   }
   // Future<void> getBanners(int? limit) async {

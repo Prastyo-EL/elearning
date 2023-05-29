@@ -1,4 +1,5 @@
 import 'package:elearning/data/model/exercise_result.dart';
+import 'package:elearning/presentation/dashboard/profile/profile_page.dart';
 import 'package:flutter/cupertino.dart';
 import "package:get/get_navigation/src/routes/get_route.dart";
 
@@ -31,7 +32,7 @@ class Pages {
   static final pages = [
     GetPage(name: Routes.splash, page: () => const SplashPage(), binding: SplashBinding()),
     GetPage(name: Routes.login, page: () => const LoginPage(), binding: LoginBinding()),
-    GetPage(name: Routes.dashboard, page: () => const DashboardPage(),arguments: TextInputType.emailAddress, bindings: [
+    GetPage(name: Routes.dashboard, page: () =>  DashboardPage(),arguments: String, bindings: [
       DashboardBinding(),
       ProfileBinding(),
       DiscussionBinding(),

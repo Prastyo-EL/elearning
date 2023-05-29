@@ -1,3 +1,4 @@
+import 'package:elearning/data/model/user_response.dart';
 import 'package:elearning/presentation/dashboard/dashboard_controller.dart';
 import 'package:elearning/presentation/dashboard/discussion/discussion_page.dart';
 import 'package:flutter/material.dart';
@@ -7,7 +8,8 @@ import 'home/home_page.dart';
 import 'profile/profile_page.dart';
 
 class DashboardPage extends GetView<DashboardController> {
-  const DashboardPage({Key? key}) : super(key: key);
+   const DashboardPage({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {

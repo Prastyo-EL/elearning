@@ -18,7 +18,6 @@ class _HomeCoursesWidgetState extends State<HomeCoursesWidget> {
   @override
   void initState() {
     Get.find<HomeController>().getCourses();
-    Get.find<HomeController>().userList;
     super.initState();
   }
 
@@ -27,7 +26,6 @@ class _HomeCoursesWidgetState extends State<HomeCoursesWidget> {
     return GetBuilder<HomeController>(
       builder: (controller) {
         List<CourseData> courses = controller.courseList;
-       List<UserData> user =controller.userList;
         return Column(
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [

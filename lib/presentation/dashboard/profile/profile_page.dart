@@ -4,26 +4,11 @@ import 'package:get/get.dart';
 import 'edit_profile/edit_profile_page.dart';
 import 'profile_controller.dart';
 
-class ProfilePageArgs{
-  final String nama;
-  final String email;
-  final String jenisKelamin;
-  final String kelas;
-  final String sekolah;
-  ProfilePageArgs({
-    required this.nama,
-    required this.email,
-    required this.jenisKelamin,
-    required this.kelas,
-    required this.sekolah,
-
-  });
-}
 class ProfilePage<C extends ProfileController> extends GetView<C> {
   static const routeName = '/profile';
    ProfilePage({super.key});
 
-  final _controller = Get.find<ProfileController>();
+  //final _controller = Get.find<ProfileController>();
 
   @override
   Widget build(BuildContext context) {
@@ -81,9 +66,9 @@ class ProfilePage<C extends ProfileController> extends GetView<C> {
               padding: const EdgeInsets.all(16.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
+                children:  [
                   Text(
-                    'Fajrin Arrahman',
+                    '',
                     style: TextStyle(
                       fontSize: 20,
                       color: Colors.white,

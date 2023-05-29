@@ -23,6 +23,23 @@
                     }
                 },
                 {
+                    "source": "/Users/yurio/gitelearning/elearning/build/app/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,713",
+                        "endColumns": "143,81,103,108,119,98,75",
+                        "endOffsets": "194,276,380,489,609,708,784"
+                    },
+                    "to": {
+                        "startLines": "145,158,159,160,161,162,165",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "10251,11256,11338,11442,11551,11671,11902",
+                        "endColumns": "143,81,103,108,119,98,75",
+                        "endOffsets": "10390,11333,11437,11546,11666,11765,11973"
+                    }
+                },
+                {
                     "source": "/Users/yurio/.gradle/caches/transforms-3/eed8a47e5a67d7c619105b54a9aadb01/transformed/jetified-savedstate-1.2.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -56,23 +73,6 @@
                         "endLines": "7,8,9,10,91,199,203,352,364,372",
                         "endColumns": "11,59,51,44,59,24,24,24,24,24",
                         "endOffsets": "339,399,451,496,5864,14058,14189,18968,19408,19717"
-                    }
-                },
-                {
-                    "source": "/Users/yurio/elearning/build/app/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,713",
-                        "endColumns": "143,81,103,108,119,98,75",
-                        "endOffsets": "194,276,380,489,609,708,784"
-                    },
-                    "to": {
-                        "startLines": "145,158,159,160,161,162,165",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "10251,11256,11338,11442,11551,11671,11902",
-                        "endColumns": "143,81,103,108,119,98,75",
-                        "endOffsets": "10390,11333,11437,11546,11666,11765,11973"
                     }
                 },
                 {
@@ -197,7 +197,7 @@
                     }
                 },
                 {
-                    "source": "/Users/yurio/elearning/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/yurio/gitelearning/elearning/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
